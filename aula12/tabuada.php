@@ -14,8 +14,7 @@
         $n = isset($_GET["nT"]) ? $_GET["nT"] : 1;
         echo "A tabuada de $n é: <br>";
         $c = 1;
-        do {
-            
+        do {    
             $r = $n * $c;
             echo "$n X $c = $r <br>";
             $c++;
